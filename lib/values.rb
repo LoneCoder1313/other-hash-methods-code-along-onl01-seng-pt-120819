@@ -8,6 +8,9 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_values(groceries)
-  #code your solution here!
-end
+def get_the_values(groceries) 
+  groceries.values
+ [["milk", "yogurt", "cheese"], ["carrots", "broccoli", "cucumbers"], ["chicken", "steak", "salmon"], ["rice", "pasta"]]
+  groceries.values.flatten
+end 
+    ["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]
